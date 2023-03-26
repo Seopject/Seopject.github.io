@@ -1,0 +1,129 @@
+.mephoto {
+  height: 200px;
+  width: 200px;
+}
+
+
+.changebcg {
+  background-color: #3d3230;
+}
+
+@media screen and (max-width: 612px) {
+  .outer_btn {
+    display: none;
+    
+  }
+
+  .changebcg {
+    background-color: #d2c9b8;
+  }
+  
+}
+
+
+.minilogo {
+  width: 40px;
+  height: 40px;
+}
+
+.minibox {
+  top: 300px;
+}
+
+body {
+  background-image: url();
+  background-repeat: no-repeat;
+}
+
+.leftside {
+  background-color: #e5454d;
+}
+
+.centercontent {
+  background-color: #d2c9b8;
+}
+
+.rightside {
+  background-color: #d2c9b8;
+}
+
+.me {
+  box-shadow:#3d3230 0px 0px 15px 15px;
+}
+
+.navcol {
+  background-color: #e3ded4;
+}
+
+.textbox {
+  line-height: 0.5;
+}
+
+.lang {
+  flex-wrap: wrap;
+}
+
+.bonobono {
+  background-image: url(img/bonobono.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+}
+
+
+.contactbox {
+  width: 550px;
+  height: 400px;
+  background-color: #ece3d1;
+}
+
+.inputbox {
+  background-color: antiquewhite;
+  border-color: #e3ded4;
+  height: 30px;
+}
+
+.first {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.second {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+.third {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.firstbottom {
+  animation-duration: 1s;
+  animation-name: bottomin;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes bottomin {
+  from {
+    margin-top: 100%;
+    height: 300%
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+
